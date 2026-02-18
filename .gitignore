@@ -1,0 +1,7 @@
+marketing.db
+__pycache__/
+*.pyc
+.env
+venv/
+.streamlit/secrets.toml
+marketing_data_raw.csv

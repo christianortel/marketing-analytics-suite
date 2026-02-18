@@ -1,0 +1,53 @@
+[START RECORDING]
+
+Hi everyone, my name is Chris. I’m applying for the Lead Data Analyst role at Launch Potato, and today I’m excited to walk you through a custom Marketing Intelligence Suite I built.
+
+I chose to build this specific dashboard because it directly addresses a challenge I know Launch Potato faces: managing performance data across fragmented channels like Google, Facebook, and TikTok. As a Lead Analyst, my job isn’t just to report numbers, but to unify them into a single source of truth that drives profitable decisions.
+
+[SHOW: Dashboard Home Page (Executive Summary)]
+
+Let’s start with the Executive Summary. Navigate to the top of the dashboard.
+Here, I’ve stripped away the vanity metrics. We aren’t looking at "Likes" or "Comments." We are laser-focused on the North Star financial metrics: Total Revenue, Blended ROAS, and CPA. This design choice ensures that stakeholders—from the C-Suite to Media Buyers—are instantly aligned on profitability.
+
+[SHOW: Campaign Deep Dive Page]
+
+But a dashboard needs to answer "Why?". Let’s drill down.
+I’ll navigate to the "Campaign Deep Dive" page using the sidebar.
+Here, I built an "Efficiency Frontier" chart. This scatter plot compares Spend against Revenue for every single campaign.
+It instantly reveals the story: Campaigns in the top-left are our stars—high efficiency, scaling well. Campaigns in the bottom-right are burning cash.
+This visualization makes the data actionable immediately: We need to cut budget from the bottom-right and reinvest it in the top-left.
+
+[SHOW: Home Page -> Budget Simulator]
+
+Speaking of reinvestment, let’s look at how this dashboard supports scenario planning.
+Back on the Home Page, I built a "Budget Allocator" simulator.
+[ACTION: Move Facebook Slider down to $5,000, Move Google Slider up to $25,000]
+As you can see, I can simulate shifting budget from a lower-performing channel like Facebook to a higher-performing one like Google. The dashboard uses historical ROAS data to instantly project our new Monthly Revenue.
+This transforms the dashboard from a static report into a dynamic decision engine. It empowers managers to test their hypotheses safely before committing real dollars.
+
+[SHOW: SQL Lab Page -> Data Explorer Tab]
+
+Finally, I want to show the technical rigor behind this.
+I know Launch Potato values advanced SQL and data integrity.
+If we go to the "SQL Lab" page, you can see I’ve built a raw "Data Explorer".
+[ACTION: Click Data Explorer Tab]
+This allows us to audit the raw logs from 10,000+ campaign events.
+[ACTION: Click SQL Editor Tab]
+And for complex, ad-hoc questions—like multi-touch attribution or cohort retention—I have direct access to the SQL warehouse here. I can write complex queries using Window Functions and CTEs to answer questions that standard dashboards can’t.
+
+[SHOW: VS Code editor with `app.py` open]
+
+Before I wrap up, I want to briefly take you under the hood. Launch Potato is a tech-forward company, so I want to show you exactly how this is built.
+Here in `app.py`, you can see I’m using Python and Streamlit.
+[ACTION: Highlight the `load_data` function]
+I’ve implemented caching strategies here using `@st.cache_data`. This ensures that even as our dataset grows from thousands to millions of rows, the executive dashboard remains lightning fast.
+[ACTION: Highlight the Budget Simulator calculation logic]
+And here is the logic for the Budget Simulator. It’s not a black box; it explicitly calculates the delta based on real-time ROAS performance.
+
+[CONCLUSION: Face Camera]
+
+To wrap up: This project demonstrates my full-stack approach to analytics. From engineering a robust SQL backend, to designing user-centric dashboards, to building tools that drive actual financial outcomes. I’m ready to bring this ownership and rigor to the Launch Potato team.
+
+Thank you for your time!
+
+[END RECORDING]
