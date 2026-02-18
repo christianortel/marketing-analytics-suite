@@ -5,3 +5,6 @@ __pycache__/
 venv/
 .streamlit/secrets.toml
 marketing_data_raw.csv
+MARKETING_VIDEO_SCRIPT.md
+MARKETING_VIDEO_SCRIPT_VERBATIM.txt
+NEXT_STEPS.md
