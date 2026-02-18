@@ -42,4 +42,4 @@ A full-stack Business Intelligence dashboard designed to optimize multi-channel 
 *   **Scenario 2**: Use the **Simulator** to shift $5k from Facebook to Google, predicting a $12k revenue increase.
 
 ---
-*Built by [Your Name] for the Lead Data Analyst Application.*
+*Built by Christian R Ortel for the Lead Data Analyst Application.*
